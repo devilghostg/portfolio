@@ -1,0 +1,162 @@
+/* Desktop L (large) - 1440px and above */
+@media only screen and (min-width: 1440px) {
+    div > #expres {
+        display: none ;
+    }
+}
+  
+/* Desktop - 1024px to 1439px */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* le header  */
+   .profile > .cercle{
+    width: 400px;
+    height: 400px;
+   } 
+   .profile > .cercle5{
+    width: 20px;
+    height: 20px;
+   } 
+   .profile > .cercle4{
+    width: 50px;
+    height: 50px;
+   } 
+   .profile > .cercle3{
+    width: 20px;
+    height: 20px;
+   } 
+   .profile > .cercle2{
+    width: 30px;
+    height: 30px;
+   } 
+   .profile > .cercle1{
+    width: 150px;
+    height: 150px;
+   } 
+   div > .name > p:nth-child(3){
+    font-size: 0.8rem;
+    width: 80%;
+   }
+   div > .name > a{
+    margin: 0;
+    padding: 5px;
+    font-size: 0.8rem;
+   }
+   main > section{
+    padding: 4%;
+   }
+   div > #expres {
+    display: none ;
+   }
+}
+
+/* Tablet - 768px to 1023px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* header  */
+    header > .head{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .profile > .cercle{
+        width: 200px;
+        height: 200px;
+       }
+       .profile > .cercle5{
+        display: none;
+       } 
+       .profile > .cercle4{
+        display: none;
+       } 
+       .profile > .cercle3{
+        display: none;
+       } 
+       .profile > .cercle2{
+        display: none;
+       } 
+       .profile > .cercle1{
+        display: none;
+       } 
+       div > .name > p:nth-child(3){
+        font-size: 1rem;
+        width: 100%;
+       }
+       div > .name > a{
+        margin: 0;
+        padding: 5px;
+        font-size: 0.8rem;
+       }
+       main > section{
+        padding: 4%;
+       }
+       /* à propos de moi  */
+       main > section > p{
+        padding: 4%;
+        font-size: 1rem;
+        width: 90%;
+       }
+       .head > .profile{
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+       }
+       .head > .name{
+        width: 100%;
+        padding: 0 3%;
+       }
+       .profile > .cercle > img{
+        height: 300px;
+        transform: translateX(-4px) translateY(-76px);
+       }
+       header > .reseau {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        margin-left: 0;
+       }
+
+       /* partie compétences  */
+
+       .tab-pane > #skill-logo {
+        gap: 50px;
+        flex-wrap: wrap;
+       }
+       .tab-pane > #skill-logo > div > img   {
+        width: 70%;
+
+       }
+       .carousel-item > .carousel-caption > h5,p{
+        font-size: 0.5rem;
+       }
+       #skill-text > ul > li {
+        font-size: 1rem ;
+       }
+
+       /* expérience  */
+
+       div > .bar {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 20px;
+       }
+       #important {
+        display: none ;
+       }
+       #expres {
+        display: block ;
+       }
+    }
+
+/* Mobile L - 465px to 767px */
+@media only screen and (min-width: 465px) and (max-width: 767px) {
+
+}
+
+/* Mobile M - 375px to 464px */
+@media only screen and (min-width: 375px) and (max-width: 464px) {
+
+}
+
+/* Mobile S - 320px to 374px */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+}
+  

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- mon css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- mon js  -->
+    <script src="js/script.js"></script>
+    <title>Portefolio</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="head">
+            <!-- nom et information du header  -->
+            <div class="name">
+                <!-- nom/prenom  -->
+                <h1>BOYER DORIAN</h1>
+                <!-- titre du diplome plus éléver -->
+                <p>Developpeur Web et Web mobile</p>
+                <!-- i nformation sur le titre  -->
+                <p>Je m'appelle BOYER Dorian,
+                    J'ai traversé le globe pour suivre mes études en France pour en apprendre de plus en plus, étant passionné par le web et les nouvelles technologies, j'ai eu la chance de pouvoir développer mes compétences à la faculté de Champagne-Ardenne, suite à une déception de ce programme je me suis dirigé vers les formations du GRETA.</p>
+                <a class="btn-97" href="#contact">Contact</a>
+            </div>
+            <!-- photo de profile  -->
+            <div class="profile container">
+                <div class="cercle2"></div>
+                <div class="cercle3"></div>
+                <div class="cercle4"></div>
+                <div class="cercle">
+                    <img src="public/img/profile-troyes.jpg" alt="photo de profile">
+                </div>
+            </div>
+        </div>
+        <div class="reseau">
+            <div>
+                <a href="#" class="social" title="Mon GitHub"></a>
+                <a href="#">
+                    <img src="public/img/icon/github.png" alt="logo github">
+                </a>
+            </div>
+            <div>
+                <a href="#" class="social" title="Mon linkedin"></a>
+                <a href="#">
+                    <img src="public/img/icon/linkedin.png" alt="logo linkedin">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- about me -->
+        <section>
+            <!-- title  -->
+            <h1>À PROPOS DE <span>DORIAN</span></h1>
+            <p>Passionné par les avancées technologiques, je suis un explorateur curieux du monde numérique et mécanique. Ma soif d'apprendre et ma fascination pour la conception web m'ont conduit à plonger dans les arcanes du développement en ligne. Toujours avide de défis, je m'efforce continuellement de parfaire mes compétences en matière de conception, cherchant sans cesse à fusionner fonctionnalité et esthétique dans mes créations.
+                
+                Mon parcours est marqué par une quête incessante de connaissances et une volonté de maîtriser les technologies émergentes. Mon intérêt pour le web ne se limite pas à sa conception, mais s'étend également à son fonctionnement interne, me permettant ainsi de comprendre pleinement les tenants et aboutissants des solutions que je développe.
+                
+                En tant que créateur, je m'efforce de trouver un équilibre harmonieux entre innovation et accessibilité, tout en restant attentif aux dernières tendances du design. Chaque projet est pour moi une occasion de repousser mes limites et d'explorer de nouvelles façons d'interagir avec le monde digital.
+                
+                À travers mon portfolio, je vous invite à découvrir mon univers, où la technologie se marie à la créativité pour donner naissance à des expériences uniques et captivantes. Rejoignez-moi dans cette aventure où le web devient le terrain de jeu de mes passions et de mes aspirations.</p>
+        </section>
+        <!-- partie contenie  -->
+        <div>
+            <div class="container-fluid">
+                <nav class="nav">
+                    <a id="competences" href="#" class="nav-link active text-light" data-bs-toggle="tab" data-bs-target="#contenuCompetences">COMPÉTENCES<span></span></a>
+                    <a id="experiences" href="#" class="nav-link text-light" data-bs-toggle="tab" data-bs-target="#contenuExperiences">EXPÉRIENCE<span></span></a>
+                    <a id="hobbies" href="#" class="nav-link text-light" data-bs-toggle="tab" data-bs-target="#contenuHobbies">HOBBIES<span></span></a>
+                </nav>
+            
+                <div class="tab-content mt-3">
+                    <!-- compétences  -->
+                    <div class="tab-pane fade show active" id="contenuCompetences">
+                        <div class="d-flex justify-content-around mt-5">
+                            <div id="skill-text" >
+                                <h2>Compétences</h2>
+                                <ul class="mt-5">
+                                    <li>Création de Web design</li>
+                                    <li>Création de site Web</li>
+                                    <li>Curieux</li>
+                                    <li>Autonome</li>
+                                    <li>Travail d'équipe</li>
+                                </ul>
+                            </div>
+                            <div class="karousel">
+                                <div id="carouselExampleCaptions" class="carousel slide">
+                                    <div class="carousel-indicators">
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="public/img/imgdesign/sandland.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Premiére maquette restaurant</h5>
+                                          <p>Premier maquette réaliser durant la formation au greta.</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="public/img/imgdesign/capture-arden.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Arden Equipment</h5>
+                                          <p>premiére maquette pour l'entreprise ardenEquipment.</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="public/img/imgdesign/portfolioold.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <h5>Portfolio</h5>
+                                          <p>Réalisation de la premiére maquette de mon portfolio.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                        </div>
+                        <div id="skill-logo" class="mt-5 d-flex justify-content-around">
+                            <div>
+                                <img src="public/img/icon/Html icons 96.png" alt="Logo HTML">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/Css.png" alt="Logo CSS">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/Js.png" alt="Logo JavaScript">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/Php 80 icons.png" alt="Logo PHP">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/Bootstrap 96.png" alt="Bootstrap">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/MySQL logo 50.png" alt="Logo MySQL">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/Tailwind CSS icon.png" alt="Logo frameworks Tailwind">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/J.png" alt="Logo jQuery">
+                            </div>
+                            <div>
+                                <img src="public/img/icon/SQL.png" alt="Logo SQL">
+                            </div>
+                        </div>
+                    </div>
+                <!-- expériences  -->
+                    <div class="tab-pane fade skill-exp" id="contenuExperiences">
+                        <div>
+                            <h2>Expériences</h2>
+                            <div id="important">
+                                <div class="bar">
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDbaux" aria-controls="offcanvasDbaux">
+                                        <img src="public/img/imgexperiences/dbaux.jpg" alt="dbaux">
+                                        <h3>2018</h3>
+                                    </div>
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasKiloutou" aria-controls="offcanvasKiloutou">
+                                        <img src="public/img/imgexperiences/kiloutou.png" alt="Kiloutou">
+                                        <h3>2018-2019</h3>
+                                    </div>
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBoulangerie" aria-controls="offcanvasBoulangerie">
+                                        <img src="public/img/imgexperiences/boulangerieyong.png" alt="Boulangerie Yong">
+                                        <h3>2019-2020</h3>
+                                    </div>
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUlettre" aria-controls="offcanvasUlettre">
+                                        <img src="public/img/imgexperiences/Logo.png" alt="University reims histoire et lettre classic">
+                                        <h3>2020-2021</h3>
+                                    </div>
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUinformatique" aria-controls="offcanvasUinformatique">
+                                        <img src="public/img/imgexperiences/Logo.png" alt="university Licence informatique">
+                                        <h3>2021-2022</h3>
+                                    </div>
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasPapernest" aria-controls="offcanvasPapernest">
+                                        <img src="public/img/imgexperiences/papernest.jpeg" alt="Papernet entreprise">
+                                        <h3>2022</h3>
+                                    </div>
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeclerc" aria-controls="offcanvasLeclerc">
+                                        <img src="public/img/imgexperiences/leclerc.png" alt="Leclerc">
+                                        <h3>2022</h3>
+                                    </div>
+                                    <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasArden" aria-controls="offcanvasArden">
+                                        <img src="public/img/imgexperiences/ardenequipment.png" alt="ardenEquipment">
+                                        <h3>2023</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="expres">
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasArden" aria-controls="offcanvasArden">
+                                    <img src="public/img/imgexperiences/ardenequipment.png" alt="ardenEquipment">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeclerc" aria-controls="offcanvasLeclerc">
+                                    <img src="public/img/imgexperiences/leclerc.png" alt="Leclerc">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasPapernest" aria-controls="offcanvasPapernest">
+                                    <img src="public/img/imgexperiences/papernest.jpeg" alt="Papernet entreprise">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUinformatique" aria-controls="offcanvasUinformatique">
+                                    <img src="public/img/imgexperiences/Logo.png" alt="university Licence informatique">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUlettre" aria-controls="offcanvasUlettre">
+                                    <img src="public/img/imgexperiences/Logo.png" alt="University reims histoire et lettre classic">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBoulangerie" aria-controls="offcanvasBoulangerie">
+                                    <img src="public/img/imgexperiences/boulangerieyong.png" alt="Boulangerie Yong">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasKiloutou" aria-controls="offcanvasKiloutou">
+                                    <img src="public/img/imgexperiences/kiloutou.png" alt="Kiloutou">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                                <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDbaux" aria-controls="offcanvasDbaux">
+                                    <img src="public/img/imgexperiences/dbaux.jpg" alt="dbaux">
+                                    <h2>Kiloutou</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hobbies  -->
+                    <div class="tab-pane fade" id="contenuHobbies">
+                        <div>
+                            <h2>Hobbies</h2>
+                            <p>Contenu sur les hobbies... (en cours)</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- la partie offcanvas ardenequipment -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasArden" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">ArdenEquipment</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            🙌 Excité d'annoncer le prochain chapitre de mon parcours professionnel ! Je suis honoré de partager que j'ai été sélectionné pour être stagiaire développeur web chez ARDEN EQUIPMENT, où mon aventure a débuté le 28 août pour une durée de deux mois. 🚀
+
+                            Rejoindre une entreprise aussi prestigieuse et novatrice est une opportunité incroyable, et je suis déjà plongé dans le monde du développement web au sein de l'équipe ARDEN EQUIPMENT. 💼 L'occasion parfaite d'apprendre et de contribuer à des projets passionnants.
+                            
+                            Un immense merci à toute l'équipe ARDEN EQUIPMENT pour cette opportunité. Je suis résolu à donner le meilleur de moi-même et à repousser mes limites pendant cette période de stage !
+                        </div>
+                        <a type="button" target="_blank" class="btn btn-outline-secondary mt-2" href="https://www.arden-equipment.com/">Visite le site ArdenEquipment</a>
+                    </div>
+                </div>
+                <!-- la partie offcanvas Leclerc -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeclerc" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">E.Leclerc</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Pendant mon arrivée dans la ville, j'ai eu l'opportunité enrichissante de travailler pendant un mois au sein de la boulangerie d'E.Leclerc. Cette expérience m'a permis d'acquérir une compréhension approfondie du fonctionnement quotidien d'un environnement de travail dynamique et exigeant.
+
+Au sein de l'équipe de la boulangerie, j'ai eu l'occasion de mettre en pratique mes compétences en communication et en travail d'équipe, tout en apprenant les tenants et aboutissants du métier de boulanger. J'ai contribué à diverses tâches, telles que la préparation des ingrédients, la cuisson des produits et le service à la clientèle, tout en m'efforçant de maintenir les normes élevées de qualité et de service propre à l'enseigne E.Leclerc.
+
+Cette expérience m'a permis de développer ma polyvalence et ma capacité à m'adapter rapidement à de nouveaux environnements de travail, tout en me fournissant une précieuse expérience professionnelle dans le secteur de la vente au détail. Bien que ce fût un court passage, il a été une étape importante dans mon intégration dans la communauté locale, tout en me permettant d'apprécier le dynamisme et la diversité du secteur alimentaire.
+                        </div>
+                    </div>
+                </div>
+                <!-- la partie offcanvas Papernest -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasPapernest" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Papernest</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Pendant mon séjour à Reims, j'ai eu le privilège de travailler chez Papernest en tant que conseiller commercial pendant une période enrichissante de 9 mois. Cette expérience a été une véritable immersion dans le monde passionnant de la gestion des services administratifs et des démarches liées à la vie quotidienne de nos clients.
+                            <br/>
+                            En tant que conseiller commercial, j'ai été au cœur de la relation client, aidant nos clients à naviguer à travers les formalités administratives et à trouver des solutions adaptées à leurs besoins spécifiques. Mon rôle consistait à comprendre leurs préoccupations et à leur offrir un service personnalisé, tout en veillant à ce qu'ils aient une expérience fluide et agréable tout au long du processus.
+                            <br/>
+                            Pendant mon temps chez Papernest, j'ai acquis une solide expertise dans la gestion des contrats et des documents administratifs, tout en développant mes compétences en communication et en résolution de problèmes. Travailler au sein d'une équipe dynamique m'a également permis de renforcer ma capacité à collaborer efficacement et à atteindre des objectifs communs.
+                            <br/>
+                            Cette expérience chez Papernest à Reims a été une étape cruciale dans mon parcours professionnel, me permettant d'acquérir des compétences précieuses et une expérience pratique dans le domaine du service clientèle et de la vente. Elle a également été une occasion unique d'explorer ma passion pour l'interaction avec les clients et de contribuer positivement à leur bien-être quotidien.
+                        </div>
+                        <a type="button" target="_blank" class="btn btn-outline-primary mt-2" href="https://www.papernest.com/">Visite le site de Papernest</a>
+                    </div>
+                </div>
+                <!-- la partie offcanvas Fac d'info -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasUinformatique" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Universiter de Reims champagne-Ardenne Licence Informatique </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Mon année passée à la faculté de Reims dans le domaine informatique a été une véritable aventure intellectuelle. Plongé au cœur des sciences informatiques, j'ai exploré un univers fascinant où la logique, la créativité et l'innovation se rejoignent pour façonner le monde numérique.
+                            <br/>
+                            Au fil des cours et des travaux pratiques, j'ai eu l'opportunité d'approfondir mes connaissances dans divers domaines, allant de la programmation aux systèmes d'information en passant par les bases de données. Chaque cours était une invitation à repousser les limites de ma compréhension et à découvrir de nouvelles perspectives sur le fonctionnement des technologies qui façonnent notre quotidien.
+                            <br/>
+                            L'atmosphère stimulante de la faculté de Reims m'a permis d'interagir avec des professeurs passionnés et des camarades de classe tout aussi dévoués. Les échanges d'idées et les discussions en groupe ont enrichi mon expérience d'apprentissage, me confrontant à des défis intellectuels stimulants et m'encourageant à développer ma capacité à résoudre des problèmes complexes.
+                            <br/>
+                            En parallèle de mes études, j'ai également eu l'occasion de participer à des projets de recherche et à des activités extracurriculaires, ce qui m'a permis d'explorer des domaines spécialisés et de développer des compétences pratiques qui complétaient ma formation académique.
+                            <br/>
+                            Cette année à la faculté de Reims a été bien plus qu'une simple étape dans mon parcours éducatif ; c'était une période de croissance personnelle et professionnelle, où j'ai consolidé ma passion pour l'informatique et jeté les bases d'une carrière prometteuse dans un domaine en constante évolution. Je quitte cette année universitaire avec une curiosité insatiable et une détermination renouvelée à contribuer à l'avancement de la technologie et de la société grâce à mes compétences en informatique.
+                        </div>
+                        <a type="button" target="_blank" class="btn btn-outline-primary mt-2" href="https://licenceinfo.fr/">Visite le site</a>
+                    </div>
+                </div>
+                <!-- la partie offcanvas Fac histoire -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasUlettre" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Universiter de Reims champagne-Ardenne Double licence Histoire et lettre classique </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Mon année à la faculté de Reims en double licence Lettres Classiques et Histoire a été motivée par le dépit, mon premier choix étant la licence informatique. Malgré cela, j'ai saisi cette opportunité pour explorer de nouveaux domaines d'étude. Bien que différente de mes aspirations initiales, cette expérience m'a permis d'acquérir de nouvelles compétences et d'élargir mes horizons intellectuels.
+                        </div>
+                        <a type="button" target="_blank" class="btn btn-outline-primary mt-2" href="https://www.univ-reims.fr/formation/catalogue-de-formation/licence-histoire-lettres-classiques,23515,38949.html?args=R9qFsCnMmKDtxCa17YTDkHVqaqbfYRXwwTnCVt2witCDUIiVoUdkeMDp%2AXGEGm2SMIhvMbuZ3_kOrRxvJlk6dOorIryuNioRCyFFyPAvhl9tCdwYdtHRrwAvNC1tDg_H&formation_id=34">Visite le site</a>
+                    </div>
+                </div>
+                <!-- la partie offcanvas boulangerie yong -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasBoulangerie" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Stage BOulangerie Yong </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Mon stage à la boulangerie Yong à La Réunion pendant mon BTS maintenance dans le domaine de l'industrie a été une expérience fascinante et formatrice. Plongé au cœur d'un environnement industriel dynamique, j'ai eu l'opportunité de mettre en pratique mes connaissances théoriques tout en acquérant de nouvelles compétences techniques.
+                            <br/>
+                            Au sein de l'équipe de maintenance, j'ai été amené à intervenir sur divers équipements et machines utilisés dans la production de pains et de pâtisseries. Mon rôle consistait à assurer le bon fonctionnement de ces équipements en réalisant des opérations de maintenance préventive et curative.
+                            <br/>
+                            Pendant la durée de mon stage, j'ai été confronté à des défis variés, allant de la réparation de machines défectueuses à l'optimisation des processus de production. Chaque jour, j'ai appris de nouvelles techniques et méthodes de travail, tout en développant ma capacité à résoudre des problèmes techniques dans un environnement industriel exigeant.
+                            <br/>
+                            En travaillant aux côtés d'une équipe passionnée et compétente, j'ai également eu l'occasion d'approfondir ma compréhension des enjeux liés à la maintenance industrielle, ainsi que de développer des compétences en communication et en travail d'équipe.
+                            <br/>
+                            Ce stage à la boulangerie Yong a été une étape cruciale dans mon parcours de formation, me permettant de mettre en pratique mes compétences techniques dans un contexte professionnel réel. Il m'a également offert une perspective précieuse sur les défis et les opportunités de l'industrie alimentaire à La Réunion.
+                        </div>
+                        <a type="button" target="_blank" class="btn btn-outline-primary mt-2" href="http://www.boulangerieyong.fr/">Visite le site</a>
+                    </div>
+                </div>
+                <!-- la partie offcanvas kiloutou -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasKiloutou" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Stage Kiloutou Sélestat </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            Mon stage chez Kiloutou durant mon BTS maintenance industrielle a été une expérience enrichissante. J'ai eu l'opportunité d'effectuer la maintenance préventive et corrective d'une variété d'équipements utilisés dans le secteur de la construction. Travailler au sein de cette entreprise renommée m'a permis d'acquérir des compétences pratiques en gestion de projet, en résolution de problèmes et en communication. Ce stage a été une étape cruciale dans mon développement professionnel, me fournissant une expérience précieuse dans le domaine de la maintenance industrielle.
+                        </div>
+                        <a type="button" target="_blank" class="btn btn-outline-primary mt-2" href="https://www.kiloutou.fr/">Visite le site</a>
+                    </div>
+                </div>
+                <!-- la partie offcanvas DBaux -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDbaux" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Stage DBAux </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div>
+                            J'ai effectué un stage enrichissant chez DBaux, une entreprise spécialisée dans la fabrication de câbles XLR et jack pour les appareils électroniques. Ce stage m'a permis de découvrir les processus de fabrication de ces câbles et d'acquérir des compétences techniques précieuses. Travailler chez DBaux m'a offert une expérience pratique précieuse dans le domaine de la fabrication de composants électroniques, me préparant ainsi à relever de nouveaux défis dans ma carrière professionnelle.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- partie contact  -->
+        <div class="contact" id="contact">
+            <form action="traitement.php" method="get">
+                <div class="wrap-input-3">
+                    <input class="input" type="text" id="nom" name="nom" placeholder="Name">
+                    <span class="focus-border"></span>
+                </div>
+                <div class="wrap-input-3">
+                    <input class="input" type="text" id="prenom" name="prenom" placeholder="Name">
+                    <span class="focus-border"></span>
+                </div>
+                <div class="wrap-input-3">
+                    <input class="input" type="email" id="email" name="email" placeholder="Name">
+                    <span class="focus-border"></span>
+                </div>
+                <div class="wrap-input-3">
+                    <textarea class="input" id="message" name="message" type="text" placeholder="Ecrivez votre message..."></textarea>
+                    <span class="focus-border"></span>
+                </div>
+                <button class="btn-77">Envoyer</button>
+            </form>
+        </div>
+        
+    </main>
+    <footer>
+        <div>
+            <a href="map:30 Brissonnet 10000 TROYES"> Adresse : TROYES</a>
+            <a href="mailto:boyer.dorian974@gmail.com">Mail : boyer.dorian974@gmail.com</a>
+        </div>
+        <div>
+            <p>© BOYER DORIAN 2024. Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html>
